@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-import { createThemes } from "tw-colors";
-import { lightTheme } from "./src/lib/theme/modes/light";
-import { darkTheme } from "./src/lib/theme/modes/dark";
 
 export default {
-  darkMode: "class", // Bruk "class" for å aktivere dark mode med klassen 'dark'
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}", // Sørger for å inkludere alle relevante filer
@@ -14,7 +10,7 @@ export default {
       keyframes: {
         "bounce-x": {
           "0%, 100%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(10px)" },
+          "50%": { transform: "translateX(40px)" },
         },
         "bounce-x-left": {
           "0%, 100%": { transform: "translateX(0)" },
@@ -52,15 +48,10 @@ export default {
         "walter-turncoat": ['"Walter Turncoat"', "serif"],
         "libre-bodoni": ['"Libre Bodoni"', "serif"],
       },
+      colors: {
+        text: "rgb(32, 29, 85)",
+      },
     },
   },
-  plugins: [
-    createThemes(
-      {
-        light: lightTheme,
-        dark: darkTheme,
-      },
-      { defaultTheme: "light" } // Sett standard tema
-    ),
-  ],
+  plugins: [],
 };
