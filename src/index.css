@@ -19,6 +19,6 @@
     @apply text-base text-text font-walter-turncoat;
   }
   a {
-    @apply text-text font-libre-bodoni hover:opacity-70 text-xl;
+    @apply text-text font-libre-bodoni text-xl;
   }
 }
