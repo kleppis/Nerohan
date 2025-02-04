@@ -2,7 +2,7 @@ import { FooterLink } from "./footer-link";
 
 const Footer = () => {
   return (
-    <footer className=" mx-auto py-10 bg-text">
+    <footer className=" mx-auto py-10 bg-text px-4 rounded-3xl">
       <div className="max-w-7xl mx-auto text-white flex justify-between">
         <div className="flex flex-col space-y-2">
           <FooterLink title="jorgenklepp@outlook.com" href="mailto:" />
