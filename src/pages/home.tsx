@@ -105,8 +105,8 @@ const Home = () => {
             </SlideIn>
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };

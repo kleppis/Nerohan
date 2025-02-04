@@ -23,7 +23,7 @@ export const Nav = () => {
   return (
     <>
       <nav
-        className={` transition-colors duration-500 sticky top-0 z-50 ${
+        className={` transition-colors duration-500 sticky top-2 z-50 rounded-lg mx-4 ${
           isAtTop ? "bg-none" : "bg-text opacity-90"
         }`}
       >
