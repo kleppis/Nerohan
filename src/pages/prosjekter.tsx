@@ -36,14 +36,13 @@ const Prosjekter = () => {
 
   return (
     <>
-      <Nav />
+      <Nav title="Prosjekter" />
       <div>
         <img
           src="/assets/makita.jpg"
           alt=""
           className="w-full mx-auto h-[50vh] object-cover -translate-y-24"
         />
-        <h1 className="absolute top-2 left-[50%]">Prosjekter</h1>
       </div>
       <div className="max-w-7xl mx-auto py-3">
         <div className="relative flex space-x-4">

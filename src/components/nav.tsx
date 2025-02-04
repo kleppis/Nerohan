@@ -3,7 +3,11 @@
 import { useEffect, useState } from "react";
 import { HoverBoxBlue } from "./hoverBox";
 
-export const Nav = () => {
+interface NavProps {
+  title?: string;
+}
+
+export const Nav: React.FC<NavProps> = ({ title = "" }) => {
   const [isAtTop, setIsAtTop] = useState(true);
 
   useEffect(() => {
@@ -32,6 +36,9 @@ export const Nav = () => {
             <img src="/assets/nero.svg" alt="" className="w-28" />
             <HoverBoxBlue />
           </a>
+          <p className="text-white font-libre-bodoni text-2xl uppercase">
+            {title}
+          </p>
           <div className="space-x-10  ">
             <a href="/" className="text-white relative group/link ">
               Hjem
