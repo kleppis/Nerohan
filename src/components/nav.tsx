@@ -33,11 +33,11 @@ export const Nav = () => {
             <HoverBoxBlue />
           </a>
           <div className="space-x-10  ">
-            <a href="" className="text-white relative group/link ">
+            <a href="/" className="text-white relative group/link ">
               Hjem
               <HoverBoxBlue />
             </a>
-            <a href="" className="text-white relative group/link">
+            <a href="/prosjekter" className="text-white relative group/link">
               Prosjekter
               <HoverBoxBlue />
             </a>

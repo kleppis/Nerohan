@@ -25,7 +25,7 @@ const SlideIn: React.FC<SlideInProps> = ({ children, delay = 0 }) => {
   return (
     <div
       ref={ref}
-      className={`transition-transform duration-500 h-fit ${
+      className={`transition-all duration-500 h-fit ${
         visible
           ? "transform translate-y-0 opacity-100"
           : "transform translate-y-10 opacity-0"

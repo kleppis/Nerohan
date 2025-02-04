@@ -10,8 +10,12 @@ const Footer = () => {
           <FooterLink title="+47 934 41 227" href="mailto:" />
         </div>
         <div className="items-center flex flex-col ">
-          <a href="hover:">
-            <img src="/assets/long_hvit.svg" alt="" className="w-36" />
+          <a href="https://kleppanit.no/">
+            <img
+              src="/assets/long_hvit.svg"
+              alt=""
+              className="w-36 hover:blur-sm transition-all"
+            />
           </a>
           <p className="text-center text-white opacity-50">Powered by</p>
         </div>
