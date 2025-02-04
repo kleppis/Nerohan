@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import { Gallery } from "../components/gallery";
 import { HomeLink } from "../components/homeLink";
 import Kontakt from "../components/kontakt";
@@ -64,6 +65,7 @@ const Home = () => {
           <Kontakt />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
