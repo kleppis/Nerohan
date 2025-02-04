@@ -1,7 +1,6 @@
 import Footer from "../components/footer";
 import { Gallery } from "../components/gallery";
 import { HomeLink } from "../components/homeLink";
-import Kontakt from "../components/kontakt";
 import { Nav } from "../components/nav";
 import SlideIn from "../components/slideIn";
 
@@ -105,9 +104,6 @@ const Home = () => {
               </p>
             </SlideIn>
           </div>
-        </div>
-        <div>
-          <Kontakt />
         </div>
         <Footer />
       </div>

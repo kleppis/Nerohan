@@ -9,7 +9,7 @@ export const FooterLink: React.FC<FooterLinkProps> = ({ title, href }) => {
   return (
     <a
       href={href}
-      className="text-white text-xl font-walter-turncoat group/link relative"
+      className="text-white text-base font-walter-turncoat group/link relative opacity-65"
     >
       {title}
       <HoverBoxBlue />
