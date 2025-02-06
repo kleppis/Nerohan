@@ -7,7 +7,7 @@ const Tjenester = () => {
     <>
       <Nav title="Tjenester" />
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
-        <h1 className="text-4xl text-center py-10">Tjenester</h1>
+        <div className="flex"></div>
       </PageLayout>
       <Footer />
     </>
