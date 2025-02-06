@@ -2,7 +2,7 @@ import { FooterLink } from "./footer-link";
 
 const Footer = () => {
   return (
-    <footer className=" mx-auto py-10 bg-text px-4 rounded-3xl my-2 mx-4">
+    <footer className=" py-10 bg-text px-4 rounded-lg my-2 mx-4">
       <div className="max-w-7xl mx-auto text-white flex justify-between">
         <div className="flex flex-col">
           <p className="text-white text-xl uppercase">Kontakt oss</p>

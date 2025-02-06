@@ -16,7 +16,7 @@ export const HomeLink: React.FC<HomeLinkProps> = ({ title, href }) => {
           className="inline ml-2 group-hover/link:animate-bounce-x ms-12"
         />
       </a>
-      <HoverBox />
+      <HoverBox href={href} />
     </div>
   );
 };

@@ -56,8 +56,8 @@ const Home = () => {
         <div className="flex space-x-20">
           <Gallery images={images} />
           <ul className="flex-col flex  space-y-20">
-            <HomeLink title="Prosjekter" href="/prosjekter" />
-            <HomeLink title="Tjenester" href="/prosjekter" />
+            <HomeLink title="Prosjekter" href="prosjekter" />
+            <HomeLink title="Tjenester" href="/tjenester" />
             <HomeLink title="Kontakt" href="/prosjekter" />
           </ul>
         </div>
