@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { HoverBoxBlue } from "./hoverBox";
+import { HoverBoxBlue } from "./misc/hoverBox";
 
 interface NavProps {
   title?: string;
@@ -40,12 +40,16 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
             {title}
           </p>
           <div className="space-x-10  ">
-            <a href="/" className="text-white relative group/link ">
-              Hjem
+            <a href="/tjenester" className="text-white relative group/link ">
+              Tjenester
               <HoverBoxBlue />
             </a>
             <a href="/prosjekter" className="text-white relative group/link">
               Prosjekter
+              <HoverBoxBlue />
+            </a>
+            <a href="/kontakt" className="text-white relative group/link">
+              Kontakt
               <HoverBoxBlue />
             </a>
           </div>

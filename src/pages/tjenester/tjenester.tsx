@@ -1,7 +1,7 @@
-import { Nav } from "../components/nav";
-import Footer from "../components/footer";
-import PageLayout from "../components/pageLayout";
-import { HomeLink } from "../components/homeLink";
+import { Nav } from "../../components/nav";
+import Footer from "../../components/footer";
+import PageLayout from "../../components/pageLayout";
+import { HomeLink } from "../../components/homeLink";
 
 const Tjenester = () => {
   return (

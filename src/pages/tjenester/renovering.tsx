@@ -1,16 +1,16 @@
-import { Nav } from "../components/nav";
-import Footer from "../components/footer";
-import PageLayout from "../components/pageLayout";
-import { Gallery } from "../components/gallery";
+import { Nav } from "../../components/nav";
+import Footer from "../../components/footer";
+import PageLayout from "../../components/pageLayout";
+import { Gallery } from "../../components/gallery";
 
-const Rehabilitering = () => {
+const Renovering = () => {
   return (
     <>
-      <Nav title="Rehabilitering" />
+      <Nav title="Renovering" />
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
         <div className="flex justify-between">
           <div className="w-1/2">
-            <h1 className="uppercase pb-spacer">Rehabilitering</h1>
+            <h1 className="uppercase pb-spacer">Renovering</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
               voluptate explicabo eos ad ut impedit doloribus accusantium,
@@ -47,4 +47,4 @@ const Rehabilitering = () => {
   );
 };
 
-export default Rehabilitering;
+export default Renovering;

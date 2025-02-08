@@ -2,7 +2,7 @@ import Footer from "../components/footer";
 import { Gallery } from "../components/gallery";
 import { HomeLink } from "../components/homeLink";
 import { Nav } from "../components/nav";
-import SlideIn from "../components/slideIn";
+import SlideIn from "../components/misc/slideIn";
 
 const Home = () => {
   const images = [

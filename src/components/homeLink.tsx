@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import { HoverBox } from "./hoverBox";
+import { HoverBox } from "./misc/hoverBox";
 
 interface HomeLinkProps {
   title: string;
