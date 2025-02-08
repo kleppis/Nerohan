@@ -50,18 +50,18 @@ const Home = () => {
       <img
         src="/assets/makita.jpg"
         alt=""
-        className="w-full mx-auto h-[50vh] object-cover -translate-y-24"
+        className="w-full mx-auto h-[50vh] object-cover -mt-24 mb-spacer"
       />
-      <div className="bg-white  max-w-7xl mx-auto px-10 xl:px-0  py-3">
-        <div className="flex flex-col-reverse space-x-20">
+      <div className="bg-white  max-w-7xl mx-auto px-5 xl:px-0  py-3 overflow-hidden">
+        <div className="flex flex-col-reverse md:flex-row md:space-x-10 xl:space-x-20">
           <Gallery images={images} />
-          <ul className="flex-col flex  space-y-20">
+          <ul className="flex-col flex  md:space-y-20 space-y-6 py-10">
             <HomeLink title="Prosjekter" href="prosjekter" />
             <HomeLink title="Tjenester" href="/tjenester" />
             <HomeLink title="Kontakt" href="/prosjekter" />
           </ul>
         </div>
-        <div className="py-10 flex space-x-6">
+        <div className="py-10 flex flex-col md:flex-row md:space-x-6">
           <div>
             <SlideIn>
               <h2>God struktur</h2>
@@ -76,7 +76,7 @@ const Home = () => {
               </p>
             </SlideIn>
           </div>
-          <div className="mt-40">
+          <div className="md:mt-40 mt-10">
             <SlideIn>
               <h2>Lederskap</h2>
               <p>
@@ -90,7 +90,7 @@ const Home = () => {
               </p>
             </SlideIn>
           </div>
-          <div className="mt-80">
+          <div className="md:mt-80 mt-10">
             <SlideIn>
               <h2>Infrastruktur</h2>
               <p>

@@ -8,8 +8,8 @@ const Rehabilitering = () => {
     <>
       <Nav title="Rehabilitering" />
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
-        <div className="flex justify-between">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row justify-between">
+          <div className="md:w-1/2">
             <h1 className="uppercase pb-spacer">Rehabilitering</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam

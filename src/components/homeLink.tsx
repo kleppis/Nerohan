@@ -16,7 +16,7 @@ export const HomeLink: React.FC<HomeLinkProps> = ({ title, href }) => {
         {title}
         <FaArrowRight
           size={50}
-          className="inline ml-2 group-hover/link:animate-bounce-x ms-12"
+          className="w-6 md:w-auto inline ml-2 group-hover/link:animate-bounce-x md:ms-12 ms-4 -mt-2"
         />
       </a>
       <HoverBox href={href} />

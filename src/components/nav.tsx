@@ -42,7 +42,7 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
           </p>
 
           {/* Desktop-meny (skjules på små skjermer) */}
-          <ul className="hidden xl:flex space-x-10 w-1/3 justify-end">
+          <ul className="hidden xl:flex space-x-10 w-1/3 ">
             <a href="/tjenester" className="text-white relative group/link">
               Tjenester
               <HoverBoxBlue />
@@ -73,7 +73,7 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
           {/* Lukkeknapp */}
           <button
             onClick={() => setMenuOpen(false)}
-            className="absolute top-5 right-5 text-white text-4xl"
+            className="absolute right-5 top-5 text-white text-4xl"
           >
             <FaTimes />
           </button>
@@ -89,7 +89,7 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
               <a
                 href="/tjenester"
                 onClick={() => setMenuOpen(false)}
-                className="hover:underline"
+                className="text-white"
               >
                 Tjenester
               </a>
@@ -98,7 +98,7 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
               <a
                 href="/prosjekter"
                 onClick={() => setMenuOpen(false)}
-                className="hover:underline"
+                className="text-white"
               >
                 Prosjekter
               </a>
@@ -107,7 +107,7 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
               <a
                 href="/kontakt"
                 onClick={() => setMenuOpen(false)}
-                className="hover:underline"
+                className="text-white"
               >
                 Kontakt
               </a>
