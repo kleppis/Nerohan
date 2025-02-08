@@ -26,11 +26,11 @@ const Nedtrekk: React.FC<NedtrekkProps> = ({ title, children }) => {
       </h2>
 
       <div
-        className={`mt-4 transition-all duration-500 ${
+        className={`mt-4 transition-all duration-300 ${
           open ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
-        <div className="bg-gray-100 p-4 rounded-lg shadow-md">{children}</div>
+        <div className="">{children}</div>
       </div>
     </div>
   );

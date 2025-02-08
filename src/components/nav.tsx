@@ -32,14 +32,14 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
         }`}
       >
         <div className="py-3 flex justify-between items-center max-w-7xl mx-auto">
-          <a href="/" className="relative group/link cursor-pointer">
+          <a href="/" className="relative group/link cursor-pointer w-1/3">
             <img src="/assets/nero.svg" alt="" className="w-28" />
             <HoverBoxBlue />
           </a>
-          <p className="text-white font-libre-bodoni text-2xl uppercase">
+          <p className="text-white font-libre-bodoni text-2xl uppercase hidden xl:block">
             {title}
           </p>
-          <div className="space-x-10  ">
+          <ul className="space-x-10 w-1/3 text-end">
             <a href="/tjenester" className="text-white relative group/link ">
               Tjenester
               <HoverBoxBlue />
@@ -52,7 +52,7 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
               Kontakt
               <HoverBoxBlue />
             </a>
-          </div>
+          </ul>
         </div>
       </nav>
     </>
