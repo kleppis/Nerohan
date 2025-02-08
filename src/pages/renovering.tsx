@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import PageLayout from "../components/pageLayout";
 import { Gallery } from "../components/gallery";
 
-const Tjenester = () => {
+const Renovering = () => {
   return (
     <>
       <Nav title="Renovering" />
@@ -47,4 +47,4 @@ const Tjenester = () => {
   );
 };
 
-export default Tjenester;
+export default Renovering;

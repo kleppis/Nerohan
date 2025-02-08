@@ -9,10 +9,49 @@ interface ImageType {
 }
 
 interface GalleryProps {
-  images: ImageType[];
+  images?: ImageType[];
 }
 
-export const Gallery: React.FC<GalleryProps> = ({ images }) => {
+const defaultImages = [
+  {
+    id: 1,
+    url: "/assets/makita.jpg",
+    alt: "Makita",
+    title: "Makita",
+  },
+  {
+    id: 2,
+    url: "/assets/makita.jpg",
+    alt: "Makita",
+    title: "Makita",
+  },
+  {
+    id: 3,
+    url: "/assets/makita.jpg",
+    alt: "Makita",
+    title: "Makita",
+  },
+  {
+    id: 4,
+    url: "/assets/makita.jpg",
+    alt: "Makita",
+    title: "Makita",
+  },
+  {
+    id: 4,
+    url: "/assets/makita.jpg",
+    alt: "Makita",
+    title: "Makita",
+  },
+  {
+    id: 4,
+    url: "/assets/makita.jpg",
+    alt: "Makita",
+    title: "Makita",
+  },
+];
+
+export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
   const [selectedImage, setSelectedImage] = useState<ImageType | null>(null);
   const [overlayVisible, setOverlayVisible] = useState(false);
 
