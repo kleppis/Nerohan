@@ -40,6 +40,7 @@ export default {
       spacing: {
         128: "32rem", // Eksempel på ny spacing
         144: "36rem",
+        spacer: "3.5rem",
       },
       borderRadius: {
         xl: "1.5rem", // Ny grense for hjørneradius

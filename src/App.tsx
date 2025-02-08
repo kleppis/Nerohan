@@ -6,6 +6,7 @@ import NotFound from "./pages/notFound";
 import Prosjekter from "./pages/prosjekter";
 import Tjenester from "./pages/tjenester";
 import Renovering from "./pages/renovering";
+import Rehabilitering from "./pages/rehabilitering";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <Route path="/prosjekter" element={<Prosjekter />} />
         <Route path="/tjenester" element={<Tjenester />} />
         <Route path="/tjenester/renovering" element={<Renovering />} />
+        <Route path="/tjenester/rehabilitering" element={<Rehabilitering />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Analytics /> {/* Plassert utenfor Routes, men innenfor Router */}
