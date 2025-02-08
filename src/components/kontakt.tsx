@@ -1,5 +1,5 @@
 import { IoIosMail } from "react-icons/io";
-import { HoverBox } from "./hoverBox";
+import { HoverBox } from "./misc/hoverBox";
 
 const Kontakt = () => {
   return (
