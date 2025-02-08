@@ -52,8 +52,8 @@ const Home = () => {
         alt=""
         className="w-full mx-auto h-[50vh] object-cover -translate-y-24"
       />
-      <div className="bg-white  max-w-7xl mx-auto  py-3">
-        <div className="flex space-x-20">
+      <div className="bg-white  max-w-7xl mx-auto px-10 xl:px-0  py-3">
+        <div className="flex flex-col-reverse space-x-20">
           <Gallery images={images} />
           <ul className="flex-col flex  space-y-20">
             <HomeLink title="Prosjekter" href="prosjekter" />

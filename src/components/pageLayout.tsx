@@ -12,7 +12,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ imgUrl, alt, children }) => {
         alt={alt}
         className="w-full mx-auto h-[50vh] object-cover -mt-24"
       />
-      <div className=" max-w-7xl mx-auto  py-14">{children}</div>
+      <div className=" max-w-7xl mx-auto  py-14 px-10 xl:px-0">{children}</div>
     </>
   );
 };
