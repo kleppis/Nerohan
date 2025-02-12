@@ -9,7 +9,7 @@ interface SlideInProps {
 const SlideIn: React.FC<SlideInProps> = ({ children, delay = 0 }) => {
   const { ref, inView } = useInView({
     triggerOnce: false,
-    threshold: 1,
+    threshold: 0.5,
   });
 
   const [visible, setVisible] = useState(false);

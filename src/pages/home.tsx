@@ -5,45 +5,6 @@ import { Nav } from "../components/nav";
 import SlideIn from "../components/misc/slideIn";
 
 const Home = () => {
-  const images = [
-    {
-      id: 1,
-      url: "/assets/makita.jpg",
-      alt: "Makita",
-      title: "Makita",
-    },
-    {
-      id: 2,
-      url: "/assets/makita.jpg",
-      alt: "Makita",
-      title: "Makita",
-    },
-    {
-      id: 3,
-      url: "/assets/makita.jpg",
-      alt: "Makita",
-      title: "Makita",
-    },
-    {
-      id: 4,
-      url: "/assets/makita.jpg",
-      alt: "Makita",
-      title: "Makita",
-    },
-    {
-      id: 4,
-      url: "/assets/makita.jpg",
-      alt: "Makita",
-      title: "Makita",
-    },
-    {
-      id: 4,
-      url: "/assets/makita.jpg",
-      alt: "Makita",
-      title: "Makita",
-    },
-  ];
-
   return (
     <>
       <Nav />
@@ -54,7 +15,7 @@ const Home = () => {
       />
       <div className="bg-white  max-w-7xl mx-auto px-5 xl:px-0  py-3 overflow-hidden">
         <div className="flex flex-col-reverse md:flex-row md:space-x-10 xl:space-x-20">
-          <Gallery images={images} />
+          <Gallery />
           <ul className="flex-col flex  md:space-y-20 space-y-6 py-10">
             <HomeLink title="Prosjekter" href="prosjekter" />
             <HomeLink title="Tjenester" href="/tjenester" />
