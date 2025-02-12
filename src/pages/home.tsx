@@ -16,7 +16,7 @@ const Home = () => {
       <div className="bg-white  max-w-7xl mx-auto px-5 xl:px-0  py-3 overflow-hidden">
         <div className="flex flex-col-reverse md:flex-row md:space-x-10 xl:space-x-20">
           <Gallery />
-          <ul className="flex-col flex  md:space-y-20 space-y-6 py-10">
+          <ul className="flex-col flex  md:space-y-10 space-y-6 pb-10">
             <HomeLink title="Prosjekter" href="prosjekter" />
             <HomeLink title="Tjenester" href="/tjenester" />
             <HomeLink title="Kontakt" href="/prosjekter" />
