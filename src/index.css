@@ -21,4 +21,7 @@
   a {
     @apply text-text font-libre-bodoni text-xl;
   }
+  .btn {
+    @apply text-text hover:text-btnHover transition-colors duration-300 ease-in-out;
+  }
 }

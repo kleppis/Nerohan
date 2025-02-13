@@ -37,18 +37,6 @@ const defaultImages = [
     alt: "Makita",
     title: "Makita",
   },
-  {
-    id: 4,
-    url: "/assets/makita.jpg",
-    alt: "Makita",
-    title: "Makita",
-  },
-  {
-    id: 4,
-    url: "/assets/makita.jpg",
-    alt: "Makita",
-    title: "Makita",
-  },
 ];
 
 export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {

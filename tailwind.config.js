@@ -51,6 +51,7 @@ export default {
       },
       colors: {
         text: "rgb(32, 29, 85)",
+        btnHover: "rgb(255, 244, 161)",
       },
     },
   },

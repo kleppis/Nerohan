@@ -1,5 +1,4 @@
 import { FaArrowRight } from "react-icons/fa";
-import { HoverBox } from "./misc/hoverBox";
 
 interface HomeLinkProps {
   title: string;
@@ -8,18 +7,17 @@ interface HomeLinkProps {
 
 export const HomeLink: React.FC<HomeLinkProps> = ({ title, href }) => {
   return (
-    <div className="relative group/link cursor-pointer">
+    <div className="relative group/link cursor-pointer hover:text-btnHover">
       <a
         href={href}
-        className="text-text uppercase xl:text-7xl text-4xl flex z-50"
+        className="text-text uppercase xl:text-7xl text-4xl flex z-50 group-hover/link:btn"
       >
         {title}
         <FaArrowRight
           size={50}
-          className="w-6 md:w-auto inline ml-2 group-hover/link:animate-bounce-x md:ms-12 ms-4 -mt-2"
+          className=" w-6 md:w-auto inline ml-2 group-hover/link:animate-bounce-x md:ms-12 ms-4 -mt-2 xl:items-center"
         />
       </a>
-      <HoverBox href={href} />
     </div>
   );
 };
