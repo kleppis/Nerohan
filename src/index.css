@@ -4,7 +4,7 @@
 
 @layer utilities {
   .display {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-text font-roboto-slab;
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light text-text font-roboto-slab;
   }
   h1 {
     @apply text-3xl sm:text-5xl md:text-7xl text-text font-roboto-slab;
@@ -23,6 +23,9 @@
   }
   a {
     @apply text-text font-roboto-slab text-xl;
+  }
+  li {
+    @apply text-base text-text font-roboto-slab;
   }
   .btn {
     @apply hover:text-btnHover transition-colors duration-300 ease-in-out;
