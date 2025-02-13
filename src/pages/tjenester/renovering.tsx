@@ -2,6 +2,8 @@ import { Nav } from "../../components/nav";
 import Footer from "../../components/footer";
 import PageLayout from "../../components/pageLayout";
 import { Gallery } from "../../components/gallery";
+import { FaA } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 
 const Renovering = () => {
   return (
@@ -58,14 +60,31 @@ const Renovering = () => {
                 prosessen for å sikre at resultatet blir slik du ønsker.
               </li>
             </ol>
-            <p>
+            <p className="mb-spacerMd">
               Uansett om du planlegger en totalrenovering eller ønsker å
               oppgradere enkeltrom, står vi klare til å hjelpe deg med å
               realisere visjonen din. Kontakt <strong>Nero AS</strong> for en
               uforpliktende prat om ditt neste renoveringsprosjekt.
             </p>
+            <a
+              className="uppercase text-3xl flex group/link btn"
+              href="/kontakt"
+            >
+              Ta kontakt
+              <FaArrowRight className="group-hover/link:animate-bounce-x mt-[3px]" />
+            </a>
           </div>
-          <Gallery />
+          <div>
+            <Gallery />
+            <p className="mt-spacerMd">Vi tilbyr også:</p>
+            <a
+              className="uppercase text-3xl flex group/link btn"
+              href="/kontakt"
+            >
+              Rehabilitering
+              <FaArrowRight className="group-hover/link:animate-bounce-x mt-[3px]" />
+            </a>
+          </div>
         </div>
       </PageLayout>
       <Footer />
