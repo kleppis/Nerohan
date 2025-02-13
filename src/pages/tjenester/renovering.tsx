@@ -61,8 +61,8 @@ const Renovering = () => {
             <p>
               Uansett om du planlegger en totalrenovering eller ønsker å
               oppgradere enkeltrom, står vi klare til å hjelpe deg med å
-              realisere visjonen din. Kontakt [Firmanavn] for en uforpliktende
-              prat om ditt neste renoveringsprosjekt.
+              realisere visjonen din. Kontakt <strong>Nero AS</strong> for en
+              uforpliktende prat om ditt neste renoveringsprosjekt.
             </p>
           </div>
           <Gallery />
