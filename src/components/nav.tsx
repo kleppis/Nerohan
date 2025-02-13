@@ -31,9 +31,17 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
       >
         <div className="py-3 flex justify-between items-center max-w-7xl mx-auto">
           {/* Logo */}
-          <a href="/" className="relative group/link cursor-pointer w-1/3">
-            <img src="/assets/nero.svg" alt="Logo" className="w-28" />
-            <HoverBoxBlue />
+          <a href="/" className="relative group/logo cursor-pointer w-1/3">
+            <img
+              src="/assets/nero-hvit.svg"
+              alt="Logo"
+              className="w-28 group-hover/logo:invisible transition-all"
+            />
+            <img
+              src="/assets/Group.svg"
+              alt="Logo"
+              className="w-28 absolute top-0 invisible group-hover/logo:visible transition-all"
+            />
           </a>
 
           {/* Tittel (kun på store skjermer) */}
@@ -43,17 +51,17 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
 
           {/* Desktop-meny (skjules på små skjermer) */}
           <ul className="hidden xl:flex space-x-10 w-1/3 ">
-            <a href="/tjenester" className="text-white relative group/link">
+            <a href="/tjenester" className="text-white btn relative group/link">
               Tjenester
-              <HoverBoxBlue />
             </a>
-            <a href="/prosjekter" className="text-white relative group/link">
+            <a
+              href="/prosjekter"
+              className="text-white btn relative group/link"
+            >
               Prosjekter
-              <HoverBoxBlue />
             </a>
-            <a href="/kontakt" className="text-white relative group/link">
+            <a href="/kontakt" className="text-white btn relative group/link">
               Kontakt
-              <HoverBoxBlue />
             </a>
           </ul>
 

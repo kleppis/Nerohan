@@ -19,7 +19,7 @@ const Home = () => {
           <ul className="flex-col flex  md:space-y-10 space-y-6 pb-10">
             <HomeLink title="Prosjekter" href="prosjekter" />
             <HomeLink title="Tjenester" href="/tjenester" />
-            <HomeLink title="Kontakt" href="/prosjekter" />
+            <HomeLink title="Kontakt" href="/kontakt" />
           </ul>
         </div>
         <div className="py-10 flex flex-col md:flex-row md:space-x-6">
