@@ -4,21 +4,30 @@
 
 @layer utilities {
   .display {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-text font-libre-bodoni;
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light text-text font-roboto-slab;
   }
   h1 {
-    @apply text-3xl sm:text-5xl md:text-7xl text-text font-libre-bodoni;
+    @apply text-3xl sm:text-5xl md:text-7xl text-text font-roboto-slab;
   }
   h2 {
-    @apply text-3xl text-text font-libre-bodoni;
+    @apply text-3xl text-text font-roboto-slab;
   }
   h3 {
-    @apply text-2xl text-text font-walter-turncoat;
+    @apply text-2xl text-text font-roboto-slab;
+  }
+  h4 {
+    @apply text-xl text-text font-roboto-slab;
   }
   p {
-    @apply text-base text-text font-walter-turncoat;
+    @apply text-base text-text font-roboto-slab;
   }
   a {
-    @apply text-text font-libre-bodoni text-xl;
+    @apply text-text font-roboto-slab text-xl;
+  }
+  li {
+    @apply text-base text-text font-roboto-slab;
+  }
+  .btn {
+    @apply hover:text-btnHover transition-colors duration-300 ease-in-out;
   }
 }

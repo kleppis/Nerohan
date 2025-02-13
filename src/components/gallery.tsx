@@ -37,18 +37,6 @@ const defaultImages = [
     alt: "Makita",
     title: "Makita",
   },
-  {
-    id: 4,
-    url: "/assets/makita.jpg",
-    alt: "Makita",
-    title: "Makita",
-  },
-  {
-    id: 4,
-    url: "/assets/makita.jpg",
-    alt: "Makita",
-    title: "Makita",
-  },
 ];
 
 export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
@@ -69,7 +57,7 @@ export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
 
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-4 w-fit h-fit overflow-hidden">
+      <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 w-fit h-fit overflow-hidden">
         {images.map((image) => (
           <div
             key={image.id}

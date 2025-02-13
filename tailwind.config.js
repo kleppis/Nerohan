@@ -41,6 +41,8 @@ export default {
         128: "32rem", // Eksempel på ny spacing
         144: "36rem",
         spacer: "3.5rem",
+        spacerMd: "2rem",
+        spacerSm: ".6rem",
       },
       borderRadius: {
         xl: "1.5rem", // Ny grense for hjørneradius
@@ -48,9 +50,11 @@ export default {
       fontFamily: {
         "walter-turncoat": ['"Walter Turncoat"', "serif"],
         "libre-bodoni": ['"Libre Bodoni"', "serif"],
+        "roboto-slab": ['"Public Sans"', "serif"],
       },
       colors: {
         text: "rgb(32, 29, 85)",
+        btnHover: "#e3b23c",
       },
     },
   },

@@ -1,0 +1,10 @@
+<svg width="78" height="80" viewBox="0 0 78 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="drill 1">
+<path id="Vector" d="M32.5 60C33.362 60 34.1886 60.3512 34.7981 60.9763C35.4076 61.6014 35.75 62.4493 35.75 63.3333V70C35.75 70.8841 35.4076 71.7319 34.7981 72.357C34.1886 72.9821 33.362 73.3333 32.5 73.3333H16.25C13.6641 73.3333 11.1842 72.2798 9.35571 70.4044C7.52723 68.529 6.5 65.9855 6.5 63.3333C6.5 62.4493 6.84241 61.6014 7.4519 60.9763C8.0614 60.3512 8.88805 60 9.75 60H32.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M42.25 33.3333H13C11.2761 33.3333 9.62279 32.631 8.40381 31.3807C7.18482 30.1305 6.5 28.4348 6.5 26.6667V13.3333C6.5 11.5652 7.18482 9.86954 8.40381 8.61929C9.62279 7.36905 11.2761 6.66667 13 6.66667H42.25C43.112 6.66667 43.9386 7.01786 44.5481 7.64298C45.1576 8.2681 45.5 9.11595 45.5 10V30C45.5 30.8841 45.1576 31.7319 44.5481 32.357C43.9386 32.9821 43.112 33.3333 42.25 33.3333ZM42.25 33.3333L39.6175 44.14C39.4421 44.8614 39.0365 45.502 38.4653 45.9598C37.894 46.4177 37.19 46.6665 36.465 46.6667H26" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M45.5 13.3333H55.25C56.112 13.3333 56.9386 13.6845 57.5481 14.3096C58.1576 14.9348 58.5 15.7826 58.5 16.6667V23.3333C58.5 24.2174 58.1576 25.0652 57.5481 25.6904C56.9386 26.3155 56.112 26.6667 55.25 26.6667H45.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M58.5 20H71.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M16.25 33.3333L9.75 60" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M22.75 60L29.25 33.3333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
