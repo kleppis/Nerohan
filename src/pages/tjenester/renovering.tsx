@@ -79,7 +79,7 @@ const Renovering = () => {
             <p className="mt-spacerMd">Vi tilbyr også:</p>
             <a
               className="uppercase text-3xl flex group/link btn"
-              href="/kontakt"
+              href="rehabilitering"
             >
               Rehabilitering
               <FaArrowRight className="group-hover/link:animate-bounce-x mt-[3px]" />

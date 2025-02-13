@@ -2,6 +2,7 @@ import { Nav } from "../../components/nav";
 import Footer from "../../components/footer";
 import PageLayout from "../../components/pageLayout";
 import { Gallery } from "../../components/gallery";
+import { FaArrowRight } from "react-icons/fa";
 
 const Rehabilitering = () => {
   return (
@@ -65,7 +66,17 @@ const Rehabilitering = () => {
               rehabiliteringsprosjekt.
             </p>
           </div>
-          <Gallery />
+          <div>
+            <Gallery />
+            <p className="mt-spacerMd">Vi tilbyr også:</p>
+            <a
+              className="uppercase text-3xl flex group/link btn"
+              href="renovering"
+            >
+              Renovering
+              <FaArrowRight className="group-hover/link:animate-bounce-x mt-[3px]" />
+            </a>
+          </div>
         </div>
       </PageLayout>
       <Footer />
