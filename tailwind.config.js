@@ -48,6 +48,7 @@ export default {
       fontFamily: {
         "walter-turncoat": ['"Walter Turncoat"', "serif"],
         "libre-bodoni": ['"Libre Bodoni"', "serif"],
+        "roboto-slab": ['"Public Sans"', "serif"],
       },
       colors: {
         text: "rgb(32, 29, 85)",

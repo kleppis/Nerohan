@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { HoverBoxBlue } from "./misc/hoverBox";
 import { FaBars, FaTimes } from "react-icons/fa"; // Ikoner for burgermeny
 
 interface NavProps {
@@ -45,7 +44,7 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
           </a>
 
           {/* Tittel (kun på store skjermer) */}
-          <p className="text-white font-libre-bodoni text-2xl uppercase hidden xl:block">
+          <p className="text-white font-roboto-slab text-2xl uppercase hidden xl:block">
             {title}
           </p>
 
