@@ -5,6 +5,7 @@ import { Gallery } from "../../components/gallery";
 import { FaArrowRight } from "react-icons/fa";
 import { LinkButton } from "../../components/misc/link";
 import SlideIn from "../../components/misc/slideIn";
+import { TilbakeLink } from "../../components/misc/tilbakeLink";
 
 const Renovering = () => {
   return (
@@ -23,6 +24,9 @@ const Renovering = () => {
                 om byggeprosesser, sørger vi for resultater som kombinerer
                 estetikk, kvalitet og varighet.
               </p>
+              <div className="mb-spacerMd">
+                <TilbakeLink href="/tjenester" title="Tjenester" />
+              </div>
             </SlideIn>
             <SlideIn>
               <h2 className="mb-spacerSm">Hva vi tilbyr:</h2>

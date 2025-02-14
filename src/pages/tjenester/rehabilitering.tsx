@@ -4,6 +4,7 @@ import PageLayout from "../../components/pageLayout";
 import { Gallery } from "../../components/gallery";
 import { LinkButton } from "../../components/misc/link";
 import SlideIn from "../../components/misc/slideIn";
+import { TilbakeLink } from "../../components/misc/tilbakeLink";
 
 const Rehabilitering = () => {
   return (
@@ -24,6 +25,9 @@ const Rehabilitering = () => {
                 forbedre bygg gjennom nøye planlagte oppgraderinger som gir både
                 funksjonalitet og estetikk.
               </p>
+              <div className="mb-spacerMd">
+                <TilbakeLink href="/tjenester" title="Tjenester" />
+              </div>
             </SlideIn>
             <SlideIn>
               <h2 className="mb-spacerSm">Hva vi tilbyr:</h2>
