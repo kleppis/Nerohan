@@ -8,7 +8,9 @@ const Kontakt = () => {
     <>
       <Nav title="Kontakt" />
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
-        <h1 className="uppercase mb-spacer">Kontakt oss</h1>
+        <h1 className="uppercase mb-spacerMd md:mb-spacer display">
+          Kontakt oss
+        </h1>
         <div className="flex-col flex space-y-10">
           <Nedtrekk title="Kontaktinformasjon">
             <ul className="space-y-4">
