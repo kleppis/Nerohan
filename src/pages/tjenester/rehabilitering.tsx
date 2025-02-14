@@ -12,7 +12,9 @@ const Rehabilitering = () => {
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
         <div className="flex flex-col md:flex-row md:space-x-4 justify-between">
           <div className="md:w-1/2 mb-spacerMd md:mb-0">
-            <h1 className="uppercase pb-spacer">Rehabilitering</h1>
+            <h1 className="uppercase mb-spacerMd md:mb-spacer">
+              Rehabilitering
+            </h1>
             <SlideIn>
               <p className="mb-spacerMd">
                 Rehabilitering gir nytt liv til eksisterende bygg ved å

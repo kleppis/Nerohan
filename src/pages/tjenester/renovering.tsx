@@ -13,7 +13,7 @@ const Renovering = () => {
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
         <div className="flex flex-col md:flex-row md:space-x-4 justify-between">
           <div className="md:w-1/2 mb-spacerMd md:mb-0">
-            <h1 className="uppercase pb-spacer">Renovering</h1>
+            <h1 className="uppercase mb-spacerMd md:mb-spacer">Renovering</h1>
             <SlideIn>
               <p className="mb-spacerMd">
                 Renovering handler om mer enn å fornye – det handler om å skape
