@@ -8,8 +8,8 @@ const Tjenester = () => {
     <>
       <Nav title="Tjenester" />
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
-        <div className=" mb-spacer">
-          <ul className="flex flex-col space-y-14">
+        <div className=" md:mb-spacerMd">
+          <ul className="flex flex-col space-y-spacerMd md:space-y-14">
             <HomeLink title="Renovering" href="tjenester/renovering" />
             <HomeLink title="Rehabilitering" href="tjenester/rehabilitering" />
           </ul>
