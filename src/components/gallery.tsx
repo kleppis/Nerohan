@@ -57,17 +57,17 @@ export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
 
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 w-fit h-fit overflow-hidden">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 md:gap-4 overflow-hidden">
         {images.map((image) => (
           <div
             key={image.id}
-            className="group relative w-56"
+            className="group relative w-auto"
             onClick={() => handleImageClick(image)}
           >
             <img
               src={image.url}
               alt={image.alt}
-              className="w-[40vw] md:w-44 lg:w-60 object-contain rounded-lg drop-shadow-lg hover:drop-shadow-2xl shadow-black z-40"
+              className="w-[44vw] lg:w-48  xl:w-60  object-contain rounded-lg drop-shadow-lg hover:drop-shadow-2xl shadow-black z-40"
             />
             <div className="absolute hidden  bg-black inset-0 rounded-lg opacity-0 group-hover:opacity-70 transition-all duration-500 md:flex justify-center items-center cursor-pointer">
               <FaArrowRight size={50} className="text-white" />

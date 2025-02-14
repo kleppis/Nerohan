@@ -10,7 +10,7 @@ const Rehabilitering = () => {
     <>
       <Nav title="Rehabilitering" />
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
-        <div className="flex flex-col md:flex-row justify-between">
+        <div className="flex flex-col md:flex-row md:space-x-4 justify-between">
           <div className="md:w-1/2 mb-spacerMd md:mb-0">
             <h1 className="uppercase pb-spacer">Rehabilitering</h1>
             <SlideIn>
@@ -79,7 +79,7 @@ const Rehabilitering = () => {
               <LinkButton href="/kontakt" title="ta kontakt" />
             </SlideIn>
           </div>
-          <div>
+          <div className="md:translate-y-32 lg:translate-y-0">
             <Gallery />
             <p className="mt-spacerMd">Vi tilbyr også:</p>
             <LinkButton href="renovering" title="Renovering" />
