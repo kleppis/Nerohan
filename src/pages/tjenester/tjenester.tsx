@@ -5,6 +5,8 @@ import { HomeLink } from "../../components/homeLink";
 import { ulikeTjenester } from "../../constants/tjenester";
 
 const Tjenester = () => {
+  console.log("ulikeTjenester:", ulikeTjenester); // Legg til denne linjen for å sjekke dataene
+
   return (
     <>
       <Nav title="Tjenester" />
@@ -12,7 +14,11 @@ const Tjenester = () => {
         <div className=" md:mb-spacerMd">
           <ul className="flex flex-col space-y-spacerMd md:space-y-6">
             {Object.values(ulikeTjenester).map((tjeneste) => (
-              <HomeLink title={tjeneste.title} href={tjeneste.href} />
+              <HomeLink
+                key={tjeneste.href}
+                title={tjeneste.title}
+                href={tjeneste.href}
+              />
             ))}
           </ul>
         </div>

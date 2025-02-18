@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {},
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules"],
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
