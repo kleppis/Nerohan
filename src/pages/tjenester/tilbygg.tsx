@@ -2,7 +2,6 @@ import { Nav } from "../../components/nav";
 import Footer from "../../components/footer-comp/footer";
 import PageLayout from "../../components/pageLayout";
 import { Gallery } from "../../components/gallery";
-import { FaArrowRight } from "react-icons/fa";
 import { LinkButton } from "../../components/misc/link";
 import SlideIn from "../../components/misc/slideIn";
 import { TilbakeLink } from "../../components/misc/tilbakeLink";
