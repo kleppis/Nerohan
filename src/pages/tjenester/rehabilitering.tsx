@@ -89,8 +89,7 @@ const Rehabilitering = () => {
           <div className="md:translate-y-32 lg:translate-y-0">
             <Gallery />
             <p className="mt-spacerMd">Vi tilbyr også:</p>
-            <LinkButton href="renovering" title="Renovering" />
-            <TilbyrOgså />
+            <TilbyrOgså thisSite="Rehabilitering" />
           </div>
         </div>
       </PageLayout>

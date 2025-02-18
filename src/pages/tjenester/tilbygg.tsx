@@ -6,6 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { LinkButton } from "../../components/misc/link";
 import SlideIn from "../../components/misc/slideIn";
 import { TilbakeLink } from "../../components/misc/tilbakeLink";
+import { TilbyrOgså } from "../../components/tilbyrOgså";
 
 const Tilbygg = () => {
   return (
@@ -86,13 +87,7 @@ const Tilbygg = () => {
           <div className="md:translate-y-32 lg:translate-y-0">
             <Gallery />
             <p className="mt-spacerMd">Vi tilbyr også:</p>
-            <a
-              className="uppercase text-3xl flex group/link btn"
-              href="rehabilitering"
-            >
-              Rehabilitering
-              <FaArrowRight className="group-hover/link:animate-bounce-x mt-[3px]" />
-            </a>
+            <TilbyrOgså thisSite="Tilbygg" />
           </div>
         </div>
       </PageLayout>

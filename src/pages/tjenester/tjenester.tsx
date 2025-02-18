@@ -2,21 +2,7 @@ import { Nav } from "../../components/nav";
 import Footer from "../../components/footer-comp/footer";
 import PageLayout from "../../components/pageLayout";
 import { HomeLink } from "../../components/homeLink";
-
-export const ulikeTjenester = {
-  Totalenterprise: {
-    title: "Totalenterprise",
-    href: "tjenester/totalenterprise",
-  },
-  Tilbygg: {
-    title: "Tilbygg",
-    href: "tjenester/tilbygg",
-  },
-  Rehabilitering: {
-    title: "Rehabilitering",
-    href: "tjenester/rehabilitering",
-  },
-};
+import { ulikeTjenester } from "../../constants/tjenester";
 
 const Tjenester = () => {
   return (

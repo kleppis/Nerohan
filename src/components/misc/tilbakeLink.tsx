@@ -7,7 +7,10 @@ interface LinkProps {
 
 export const TilbakeLink: React.FC<LinkProps> = ({ href, title }) => {
   return (
-    <a className="uppercase text-3xl flex group/link btn" href={href}>
+    <a
+      className="uppercase text-2xl flex group/link btn opacity-55"
+      href={href}
+    >
       <FaArrowLeft className="group-hover/link:animate-bounce-x-left mt-[3px]" />
 
       {title}

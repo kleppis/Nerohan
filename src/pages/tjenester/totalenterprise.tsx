@@ -6,6 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { LinkButton } from "../../components/misc/link";
 import SlideIn from "../../components/misc/slideIn";
 import { TilbakeLink } from "../../components/misc/tilbakeLink";
+import { TilbyrOgså } from "../../components/tilbyrOgså";
 
 const Totalenterprise = () => {
   return (
@@ -88,8 +89,7 @@ const Totalenterprise = () => {
           <div className="md:translate-y-32 lg:translate-y-0">
             <Gallery />
             <p className="mt-spacerMd">Vi tilbyr også:</p>
-            <LinkButton href="tilbygg" title="Tilbygg" />
-            <LinkButton href="rehabilitering" title="Rehabilitering" />
+            <TilbyrOgså thisSite="Totalenterprise" />
           </div>
         </div>
       </PageLayout>
