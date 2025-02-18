@@ -1,4 +1,4 @@
-import Footer from "../components/footer";
+import Footer from "../components/footer-comp/footer";
 import { Gallery } from "../components/gallery";
 import { HomeLink } from "../components/homeLink";
 import { Nav } from "../components/nav";

@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Nav } from "../components/nav";
 import ProsjektLayout from "../components/prosjekt-komponenter/prosjektLayout";
-import Footer from "../components/footer";
+import Footer from "../components/footer-comp/footer";
 
 const Prosjekter = () => {
   const [activeButton, setActiveButton] = useState<number | null>(null);

@@ -1,10 +1,11 @@
 import { Nav } from "../../components/nav";
-import Footer from "../../components/footer";
+import Footer from "../../components/footer-comp/footer";
 import PageLayout from "../../components/pageLayout";
 import { Gallery } from "../../components/gallery";
 import { LinkButton } from "../../components/misc/link";
 import SlideIn from "../../components/misc/slideIn";
 import { TilbakeLink } from "../../components/misc/tilbakeLink";
+import { TilbyrOgså } from "../../components/tilbyrOgså";
 
 const Rehabilitering = () => {
   return (
@@ -89,6 +90,7 @@ const Rehabilitering = () => {
             <Gallery />
             <p className="mt-spacerMd">Vi tilbyr også:</p>
             <LinkButton href="renovering" title="Renovering" />
+            <TilbyrOgså />
           </div>
         </div>
       </PageLayout>

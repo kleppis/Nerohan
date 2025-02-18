@@ -1,5 +1,5 @@
 import { Nav } from "../../components/nav";
-import Footer from "../../components/footer";
+import Footer from "../../components/footer-comp/footer";
 import PageLayout from "../../components/pageLayout";
 import { Gallery } from "../../components/gallery";
 import { FaArrowRight } from "react-icons/fa";
