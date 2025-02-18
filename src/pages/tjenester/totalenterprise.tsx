@@ -88,13 +88,8 @@ const Totalenterprise = () => {
           <div className="md:translate-y-32 lg:translate-y-0">
             <Gallery />
             <p className="mt-spacerMd">Vi tilbyr også:</p>
-            <a
-              className="uppercase text-3xl flex group/link btn"
-              href="rehabilitering"
-            >
-              Rehabilitering
-              <FaArrowRight className="group-hover/link:animate-bounce-x mt-[3px]" />
-            </a>
+            <LinkButton href="tilbygg" title="Tilbygg" />
+            <LinkButton href="rehabilitering" title="Rehabilitering" />
           </div>
         </div>
       </PageLayout>
