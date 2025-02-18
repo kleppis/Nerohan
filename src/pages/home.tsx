@@ -1,8 +1,9 @@
-import Footer from "../components/footer";
+import Footer from "../components/footer-comp/footer";
 import { Gallery } from "../components/gallery";
 import { HomeLink } from "../components/homeLink";
 import { Nav } from "../components/nav";
 import SlideIn from "../components/misc/slideIn";
+import TjenesteSection from "../components/tjeneste/tjenesteSection";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
         alt=""
         className="w-full mx-auto h-[50vh] object-cover -mt-24 mb-spacerMd md:mb-spacer"
       />
-      <div className="bg-white  max-w-7xl mx-auto px-5 xl:px-0  md:py-3 overflow-hidden">
+      <div className="bg-white  max-w-7xl mx-auto px-5 xl:px-0  md:py-3 ">
         <div className="flex flex-col-reverse md:flex-row md:space-x-10 xl:space-x-20">
           <Gallery />
           <ul className="flex-col flex  md:space-y-10 space-y-6 mb-spacerMd">
@@ -22,6 +23,7 @@ const Home = () => {
             <HomeLink title="Kontakt" href="/kontakt" />
           </ul>
         </div>
+        <TjenesteSection />
         <div className="py-10 flex flex-col md:flex-row md:space-x-6">
           <div>
             <SlideIn>

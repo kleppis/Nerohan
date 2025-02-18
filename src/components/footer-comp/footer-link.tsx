@@ -1,4 +1,4 @@
-import { HoverBoxBlue } from "./misc/hoverBox";
+import { HoverBoxBlue } from "../misc/hoverBox";
 
 interface FooterLinkProps {
   title: string;

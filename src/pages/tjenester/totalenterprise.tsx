@@ -1,20 +1,22 @@
 import { Nav } from "../../components/nav";
-import Footer from "../../components/footer";
+import Footer from "../../components/footer-comp/footer";
 import PageLayout from "../../components/pageLayout";
 import { Gallery } from "../../components/gallery";
-import { FaArrowRight } from "react-icons/fa";
 import { LinkButton } from "../../components/misc/link";
 import SlideIn from "../../components/misc/slideIn";
 import { TilbakeLink } from "../../components/misc/tilbakeLink";
+import { TilbyrOgså } from "../../components/tilbyrOgså";
 
-const Renovering = () => {
+const Totalenterprise = () => {
   return (
     <>
-      <Nav title="Renovering" />
+      <Nav title="Totalenterprise" />
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
         <div className="flex flex-col md:flex-row md:space-x-4 justify-between">
           <div className="md:w-1/2 mb-spacerMd md:mb-0">
-            <h1 className="uppercase mb-spacerMd md:mb-spacer">Renovering</h1>
+            <h1 className="uppercase mb-spacerMd md:mb-spacer">
+              Totalenterprise
+            </h1>
             <SlideIn>
               <p className="mb-spacerMd">
                 Renovering handler om mer enn å fornye – det handler om å skape
@@ -86,13 +88,7 @@ const Renovering = () => {
           <div className="md:translate-y-32 lg:translate-y-0">
             <Gallery />
             <p className="mt-spacerMd">Vi tilbyr også:</p>
-            <a
-              className="uppercase text-3xl flex group/link btn"
-              href="rehabilitering"
-            >
-              Rehabilitering
-              <FaArrowRight className="group-hover/link:animate-bounce-x mt-[3px]" />
-            </a>
+            <TilbyrOgså thisSite="Totalenterprise" />
           </div>
         </div>
       </PageLayout>
@@ -101,4 +97,4 @@ const Renovering = () => {
   );
 };
 
-export default Renovering;
+export default Totalenterprise;

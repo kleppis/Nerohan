@@ -7,24 +7,22 @@ import SlideIn from "../../components/misc/slideIn";
 import { TilbakeLink } from "../../components/misc/tilbakeLink";
 import { TilbyrOgså } from "../../components/tilbyrOgså";
 
-const Rehabilitering = () => {
+const Tilbygg = () => {
   return (
     <>
-      <Nav title="Rehabilitering" />
+      <Nav title="Tilbygg" />
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
         <div className="flex flex-col md:flex-row md:space-x-4 justify-between">
           <div className="md:w-1/2 mb-spacerMd md:mb-0">
-            <h1 className="uppercase mb-spacerMd md:mb-spacer">
-              Rehabilitering
-            </h1>
+            <h1 className="uppercase mb-spacerMd md:mb-spacer">Tilbygg</h1>
             <SlideIn>
               <p className="mb-spacerMd">
-                Rehabilitering gir nytt liv til eksisterende bygg ved å
-                kombinere moderne løsninger med bevaring av bygningens
-                kvaliteter. Hos
-                <strong> Nero AS</strong> har vi lang erfaring med å fornye og
-                forbedre bygg gjennom nøye planlagte oppgraderinger som gir både
-                funksjonalitet og estetikk.
+                Renovering handler om mer enn å fornye – det handler om å skape
+                verdi, funksjonalitet og trivsel. Hos <strong>Nero AS</strong>{" "}
+                tilbyr vi skreddersydde renoveringstjenester for boliger,
+                næringsbygg og hytter. Med vår brede erfaring og dype kunnskap
+                om byggeprosesser, sørger vi for resultater som kombinerer
+                estetikk, kvalitet og varighet.
               </p>
               <div className="mb-spacerMd">
                 <TilbakeLink href="/tjenester" title="Tjenester" />
@@ -34,27 +32,26 @@ const Rehabilitering = () => {
               <h2 className="mb-spacerSm">Hva vi tilbyr:</h2>
               <ol className="mb-spacerMd space-y-2">
                 <li>
-                  <strong>Fasaderehabilitering:</strong> Forbedring og fornyelse
-                  av byggets ytre for å øke både holdbarhet og estetikk.
+                  <strong>Totalrenovering:</strong> Fra planlegging til
+                  ferdigstillelse – vi forvandler bygg med nøye gjennomførte
+                  oppgraderinger.
                 </li>
                 <li>
-                  <strong>Innvendig modernisering:</strong> Oppgrader interiøret
-                  med løsninger som gir bedre komfort og funksjonalitet.
+                  <strong>Oppussing av bad og kjøkken:</strong> Moderne
+                  løsninger som kombinerer funksjonalitet og stil.
                 </li>
                 <li>
-                  <strong>Strukturelle forbedringer:</strong> Forsterkning av
-                  bærekonstruksjoner for økt sikkerhet og varighet.
+                  <strong>Fasaderehabilitering:</strong> Gi bygget nytt liv med
+                  oppgraderinger som både beskytter og forskjønner.
                 </li>
                 <li>
-                  <strong>Tak- og vindusutskiftning:</strong> Bedre isolasjon og
-                  energieffektivitet med moderne materialer.
+                  <strong>Etterisolering og energieffektivisering:</strong> Øk
+                  komforten og senk energikostnadene.
                 </li>
               </ol>
             </SlideIn>
             <SlideIn>
-              <h2 className="mb-spacerSm">
-                Hvorfor velge oss til rehabilitering?
-              </h2>
+              <h2 className="mb-spacerSm">Hvorfor velge oss til renovering?</h2>
               <ol className="mb-spacerMd space-y-2">
                 <li>
                   <strong>Erfaring og ekspertise:</strong> Vi har lang erfaring
@@ -76,10 +73,10 @@ const Rehabilitering = () => {
             </SlideIn>
             <SlideIn>
               <p className="mb-spacerMd">
-                Uansett om du skal oppgradere et hjem, næringsbygg eller et
-                historisk bygg, er <strong>Nero AS</strong> din trygge partner.
-                Kontakt oss for en uforpliktende prat om ditt
-                rehabiliteringsprosjekt.
+                Uansett om du planlegger en totalrenovering eller ønsker å
+                oppgradere enkeltrom, står vi klare til å hjelpe deg med å
+                realisere visjonen din. Kontakt <strong>Nero AS</strong> for en
+                uforpliktende prat om ditt neste renoveringsprosjekt.
               </p>
             </SlideIn>
             <SlideIn>
@@ -89,7 +86,7 @@ const Rehabilitering = () => {
           <div className="md:translate-y-32 lg:translate-y-0">
             <Gallery />
             <p className="mt-spacerMd">Vi tilbyr også:</p>
-            <TilbyrOgså thisSite="Rehabilitering" />
+            <TilbyrOgså thisSite="Tilbygg" />
           </div>
         </div>
       </PageLayout>
@@ -98,4 +95,4 @@ const Rehabilitering = () => {
   );
 };
 
-export default Rehabilitering;
+export default Tilbygg;

@@ -1,5 +1,5 @@
 import { Nav } from "../components/nav";
-import Footer from "../components/footer";
+import Footer from "../components/footer-comp/footer";
 import PageLayout from "../components/pageLayout";
 import Nedtrekk from "../components/nedtrekk";
 
@@ -15,37 +15,23 @@ const Kontakt = () => {
           <Nedtrekk title="Kontaktinformasjon">
             <ul className="space-y-4">
               <h4>
-                <strong className="pe-3">Telefon:</strong>+47 123 45 678
+                <strong className="pe-3">Telefon:</strong>+47 401 69 161
               </h4>
               <h4>
-                <strong className="pe-3">Epost:</strong>nerohan@nero.as
-              </h4>
-            </ul>
-          </Nedtrekk>
-          <Nedtrekk title="Fakturainformasjon">
-            <ul className="space-y-4">
-              <h4>
-                <strong className="pe-3">Organisasjonsnummer:</strong>568 123
-                678 678
-              </h4>
-              <h4>
-                Nero AS <br />
-                ECIT Org. nr. NO "organisasjonsnummer" MVA <br />
-                Postboks ## <br />
-                1304 Skui
+                <strong className="pe-3">Epost:</strong>post@nero.as
               </h4>
             </ul>
           </Nedtrekk>
           <Nedtrekk title="Kontaktperson">
             <ul className="space-y-4">
               <h4>
-                <strong className="pe-3">Navn:</strong>Nerohan Simrad Selvendran
+                <strong className="pe-3">Navn:</strong>Nerohan Nimrod Selvendran
               </h4>
               <h4>
-                <strong className="pe-3">Telefon:</strong>+47 123 45 678
+                <strong className="pe-3">Telefon:</strong>+47 401 69 161
               </h4>
               <h4>
-                <strong className="pe-3">Epost:</strong>nerohan@nero.as
+                <strong className="pe-3">Epost:</strong>post@nero.as
               </h4>
             </ul>
           </Nedtrekk>

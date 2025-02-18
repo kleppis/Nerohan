@@ -43,10 +43,12 @@ export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
   const [selectedImage, setSelectedImage] = useState<ImageType | null>(null);
   const [overlayVisible, setOverlayVisible] = useState(false);
 
+  /*
   const handleImageClick = (image: ImageType) => {
     setSelectedImage(image);
     setOverlayVisible(true);
   };
+  */
 
   const handleCloseOverlay = () => {
     setOverlayVisible(false);
@@ -59,11 +61,7 @@ export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
     <div>
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 md:gap-4 overflow-hidden">
         {images.map((image) => (
-          <div
-            key={image.id}
-            className="group relative w-auto"
-            onClick={() => handleImageClick(image)}
-          >
+          <div key={image.id} className="group relative w-auto">
             <img
               src={image.url}
               alt={image.alt}
@@ -83,7 +81,7 @@ export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
             overlayVisible ? "opacity-100" : "opacity-0"
           }`}
         >
-          <div className="relative">
+          <div className="relative ">
             <button
               className="absolute top-2 left-2 text-white text-3xl"
               onClick={(e) => {
