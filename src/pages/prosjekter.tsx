@@ -3,7 +3,7 @@ import Footer from "../components/footer-comp/footer";
 import PageLayout from "../components/pageLayout";
 import { ulikeProsjekter } from "../constants/prosjekter";
 import { Container } from "../components/misc/container";
-import { Gallery } from "../components/gallery";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Prosjekter = () => {
   return (
@@ -14,16 +14,15 @@ const Prosjekter = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
           {ulikeProsjekter.map((prosjekt) => (
             <Container>
-              <h2 className="mb-3">{prosjekt.tittel}</h2>
-              <div className="flex justify-between space-x-2">
-                <p className="w-1/2">{prosjekt.beskrivelse}</p>
-                <div className="w-1/2">
-                  <img
-                    className="rounded-lg shadow-md shadow-slate-600"
-                    src="/assets/makita.jpg"
-                    alt=""
-                  />
-                </div>
+              <img
+                className="rounded-lg shadow-md"
+                src="/assets/makita.jpg"
+                alt=""
+              />
+              <h2 className="my-3">{prosjekt.tittel}</h2>
+              <div className="flex items-center space-x-2 text-text">
+                <FaLocationDot className="text-text" />
+                <p>Oslo</p>
               </div>
             </Container>
           ))}

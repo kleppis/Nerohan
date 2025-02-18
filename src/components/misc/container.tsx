@@ -6,7 +6,7 @@ export const Container: React.FC<ContainerProps> = ({ children }) => {
   return (
     <>
       <div className="relative">
-        <div className=" shadow-lg shadow-text h-full  rounded-lg mx-auto p-4 overflow-hidden group/container">
+        <div className=" shadow-lg shadow-slate-400 h-full  rounded-lg mx-auto p-4 overflow-hidden group/container">
           <div className="group-hover/container:scale-110 transition-all duration-500">
             {children}
           </div>
