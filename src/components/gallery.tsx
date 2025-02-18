@@ -43,10 +43,12 @@ export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
   const [selectedImage, setSelectedImage] = useState<ImageType | null>(null);
   const [overlayVisible, setOverlayVisible] = useState(false);
 
+  /*
   const handleImageClick = (image: ImageType) => {
     setSelectedImage(image);
     setOverlayVisible(true);
   };
+  */
 
   const handleCloseOverlay = () => {
     setOverlayVisible(false);
@@ -83,7 +85,7 @@ export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
             overlayVisible ? "opacity-100" : "opacity-0"
           }`}
         >
-          <div className="relative">
+          <div className="relative ">
             <button
               className="absolute top-2 left-2 text-white text-3xl"
               onClick={(e) => {
