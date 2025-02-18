@@ -8,6 +8,8 @@ import Tjenester from "./pages/tjenester/tjenester";
 import Renovering from "./pages/tjenester/renovering";
 import Rehabilitering from "./pages/tjenester/rehabilitering";
 import Kontakt from "./pages/kontakt";
+import Totalenterprise from "./pages/tjenester/totalenterprise";
+import Tilbygg from "./pages/tjenester/tilbygg";
 
 const App: React.FC = () => {
   return (
@@ -19,6 +21,11 @@ const App: React.FC = () => {
         <Route path="/tjenester" element={<Tjenester />} />
         <Route path="/tjenester/renovering" element={<Renovering />} />
         <Route path="/tjenester/rehabilitering" element={<Rehabilitering />} />
+        <Route
+          path="/tjenester/totalenterprise"
+          element={<Totalenterprise />}
+        />
+        <Route path="/tjenester/tilbygg" element={<Tilbygg />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Analytics /> {/* Plassert utenfor Routes, men innenfor Router */}

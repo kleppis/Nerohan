@@ -10,7 +10,11 @@ const Tjenester = () => {
       <PageLayout imgUrl="/assets/makita.jpg" alt="Makita">
         <div className=" md:mb-spacerMd">
           <ul className="flex flex-col space-y-spacerMd md:space-y-14">
-            <HomeLink title="Renovering" href="tjenester/renovering" />
+            <HomeLink
+              title="Totalenterprise"
+              href="tjenester/totalenterprise"
+            />
+            <HomeLink title="Tilbygg" href="tjenester/tilbygg" />
             <HomeLink title="Rehabilitering" href="tjenester/rehabilitering" />
           </ul>
         </div>
