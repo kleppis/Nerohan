@@ -61,11 +61,7 @@ export const Gallery: React.FC<GalleryProps> = ({ images = defaultImages }) => {
     <div>
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 md:gap-4 overflow-hidden">
         {images.map((image) => (
-          <div
-            key={image.id}
-            className="group relative w-auto"
-            onClick={() => handleImageClick(image)}
-          >
+          <div key={image.id} className="group relative w-auto">
             <img
               src={image.url}
               alt={image.alt}
