@@ -7,10 +7,9 @@ const TjenesteSection = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
       {ulikeTjenester.map((tjeneste) => (
         <Container>
-          <p className="text-center">Prosjektering</p>
-          <FaArrowDown className="text-text mx-auto" />
-          <p className="text-center">Utførelse</p>
-          <h2>{tjeneste.title}</h2>
+          <img src="/assets/totalenterprise.jpg" alt="" />
+          <h2 className="mt-2">{tjeneste.title}</h2>
+          <p>{tjeneste.shortDescription}</p>
         </Container>
       ))}
     </div>
