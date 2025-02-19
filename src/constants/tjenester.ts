@@ -7,9 +7,11 @@ export const ulikeTjenester = [
   {
     title: "Tilbygg",
     href: "/tjenester/tilbygg",
+    shortDescription: "Vi bygger på eksisterende bygg",
   },
   {
     title: "Rehabilitering",
     href: "/tjenester/rehabilitering",
+    shortDescription: "Vi fornyer og forbedrer",
   },
 ];
