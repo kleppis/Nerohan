@@ -1,4 +1,3 @@
-import { FaArrowDown } from "react-icons/fa";
 import { ulikeTjenester } from "../../constants/tjenester";
 import { Container } from "../misc/container";
 
