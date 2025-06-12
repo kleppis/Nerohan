@@ -86,10 +86,14 @@ const Rehabilitering = () => {
               <LinkButton href="/kontakt" title="ta kontakt" />
             </SlideIn>
           </div>
-          <div className="md:translate-y-32 lg:translate-y-0">
+          <div className="md:translate-y-32 lg:translate-y-0 flex flex-col">
             <Gallery />
-            <p className="mt-spacerMd">Vi tilbyr også:</p>
-            <TilbyrOgså thisSite="Rehabilitering" />
+            <div className="relative flex-1">
+              <div className="sticky -top-10">
+                <p className="mt-spacerMd">Vi tilbyr også:</p>
+                <TilbyrOgså thisSite="Rehabilitering" />
+              </div>
+            </div>
           </div>
         </div>
       </PageLayout>

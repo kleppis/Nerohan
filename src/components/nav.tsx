@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"; // Ikoner for burgermeny
+import { navObjects } from "../constants/navObjects";
+import SlideIn from "./misc/slideIn";
 
 interface NavProps {
   title?: string;
@@ -76,7 +78,10 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
 
       {/* OVERLAY-MENY */}
       {menuOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-90 flex flex-col items-center justify-center z-50 transition-opacity duration-500">
+        <div
+          onClick={() => setMenuOpen(false)}
+          className="fixed inset-0 bg-black bg-opacity-90 flex flex-col items-center justify-center z-50 transition-opacity duration-500"
+        >
           {/* Lukkeknapp */}
           <button
             onClick={() => setMenuOpen(false)}
@@ -91,34 +96,20 @@ export const Nav: React.FC<NavProps> = ({ title = "" }) => {
           </p>
 
           {/* Lenker */}
-          <ul className="space-y-6 text-center text-white text-2xl">
-            <li>
-              <a
-                href="/tjenester"
-                onClick={() => setMenuOpen(false)}
-                className="text-white"
-              >
-                Tjenester
-              </a>
-            </li>
-            <li>
-              <a
-                href="/prosjekter"
-                onClick={() => setMenuOpen(false)}
-                className="text-white"
-              >
-                Prosjekter
-              </a>
-            </li>
-            <li>
-              <a
-                href="/kontakt"
-                onClick={() => setMenuOpen(false)}
-                className="text-white"
-              >
-                Kontakt
-              </a>
-            </li>
+          <ul className="space-y-6 text-center text-white text-2xl uppercase">
+            {navObjects.map((nav, index) => (
+              <li key={index}>
+                <SlideIn delay={index * 100}>
+                  <a
+                    className="text-white"
+                    onClick={() => setMenuOpen(false)}
+                    href={`/${nav.title}`}
+                  >
+                    {nav.title}
+                  </a>
+                </SlideIn>
+              </li>
+            ))}
           </ul>
         </div>
       )}
