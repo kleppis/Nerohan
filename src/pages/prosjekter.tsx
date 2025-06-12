@@ -14,15 +14,17 @@ const Prosjekter = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
           {ulikeProsjekter.map((prosjekt) => (
             <Container>
-              <img
-                className="rounded-lg shadow-md"
-                src="/assets/makita.jpg"
-                alt=""
-              />
+              <div className="overflow-hidden rounded-lg">
+                <img
+                  className="rounded-lg shadow-md group-hover/container:scale-105 transition-all duration-500"
+                  src="/assets/makita.jpg"
+                  alt=""
+                />
+              </div>
               <h2 className="my-3">{prosjekt.tittel}</h2>
               <div className="flex items-center space-x-2 text-text">
                 <FaLocationDot className="text-text" />
-                <p>Oslo</p>
+                <p>{prosjekt.location}</p>
               </div>
             </Container>
           ))}

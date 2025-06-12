@@ -23,7 +23,9 @@ const Home = () => {
             <HomeLink title="Kontakt" href="/kontakt" />
           </ul>
         </div>
-        <TjenesteSection />
+        <div className="my-spacer">
+          <TjenesteSection />
+        </div>
         <div className="py-10 flex flex-col md:flex-row md:space-x-6">
           <div>
             <SlideIn>
